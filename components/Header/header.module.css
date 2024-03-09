@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bcit {
+    flex: 0 0 auto;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  
+  .list li {
+    cursor: pointer;
+  }
+  
+  .bars {
+    flex: 0 0 auto;
+    margin-top: 20px;
+  }

@@ -1,0 +1,11 @@
+.list ul {
+    list-style-type: none;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.bcit {
+text-align: center;
+}
