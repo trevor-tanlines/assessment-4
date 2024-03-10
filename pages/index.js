@@ -15,6 +15,32 @@ export default function Home() {
 
       <Header/>
       <main className={`${styles.main}`}>
+        <div className={styles.school}>
+          <img src="/images/BCIT-Burnaby-Campus.jpg" alt="school" width={900} height={350}></img>
+        </div>
+        <div className={styles.welcome}>
+          Welcome to BCIT
+        </div>
+        <div className={styles.different}>
+          <p>Different than a college or university,</p> 
+          <p>British Columbia Institute or Technology </p>
+          <p>offers practice experience.</p>
+        </div>
+        <div className={styles.about}>
+          About
+        </div>
+        <div className={styles.apply}>
+          Ready to Apply?
+        </div>
+        <div className={styles.walkway}>
+          <img src="/images/photo2.jpg" alt="walkway" width={150} height={150}></img>
+        </div>
+        <div className={styles.tuition}>
+          Your tuition depends on the program you enter.
+        </div>
+        <div className={styles.students}>
+          <img src="/images/photo1.jpg" alt="students" width={50} height={50}></img>
+        </div>
 
       </main>
 
