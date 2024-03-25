@@ -2,17 +2,21 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .left{
+    display:flex;
+  }
   
   .bcit {
     flex: 0 0 auto;
   }
   
   .list ul {
+    width: auto;
+    gap: 15px;
     list-style-type: none;
     display: flex;
     font-size: small;
-    justify-content: space-between;
-    margin-left: 30px;
   }
   
   .list li {
